@@ -6,9 +6,9 @@ function App() {
   const [prod, setProd] = useState("")
 
     fetch('https://express-vercel-one-psi.vercel.app')
-      .then(response => response.json()) // transforma a resposta em JSON
+      .then(response => response.json())
       .then(data => {
-        setProd(data.prod)     // Caneta
+        setProd(data.prod)
       })
       .catch(error => {
         console.error('Erro na requisição:', error);

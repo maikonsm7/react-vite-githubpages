@@ -7,7 +7,7 @@ function App() {
   return (
     <>
      <h1>Projeto React + Vite no GitHub Pages</h1>
-     <p>Contador: {count}</p>
+     <p>Contador de cliques: {count}</p>
      <button onClick={()=>setCount(v => v + 1)}>Clique aqui</button>
     </>
   )
